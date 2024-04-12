@@ -20,13 +20,13 @@ Cloud computing experience: DevOps engineers should have experience working with
 Soft skills: DevOps engineers should be effective communicators, able to work collaboratively with teams across different departments, and possess strong problem-solving and analytical skills.
 Certification: Some organizations may require DevOps engineers to hold relevant certifications such as Certified DevOps Engineer (CDE), Certified Kubernetes Administrator (CKA), or AWS Certified DevOps Engineer - Professional.
 Let us now begin with some general DevOps interview questions and answers.
+
 General DevOps Interview Questions
+======================================
 1. What do you know about DevOps?
 DevOps is a methodology that has gained significant importance in the IT industry. It's about bringing together developers and operations teams to make software delivery smoother and with fewer hiccups. The goal is to speed up the whole process and make sure everyone works together well. 
 In DevOps, developers and operations people team up right from the start of a project until it's up and running. They share tasks, automate things that are repetitive, and keep improving how they work together. 
 By following DevOps practices, companies can get their products out faster, make them better, and make sure they work well for customers. It's all about making everyone happier and getting better results for the business.
-
-
 
 
 2. How is DevOps different from agile methodology?
@@ -45,6 +45,7 @@ Git
 Jenkins
 Ansible
 Docker
+
 4. What are the different phases in DevOps?
 The various phases of the DevOps lifecycle are as follows:
 Plan: Initially, there should be a plan for the type of application that needs to be developed. Getting a rough picture of the development process is always a good idea.
@@ -57,6 +58,7 @@ Operate: Operations are performed on the code if required.
 Monitor: Application performance is monitored. Changes are made to meet the end-user requirements.
 
 The above figure indicates the DevOps lifecycle.
+
 5. Mention some of the core benefits of DevOps.
 The core benefits of DevOps are as follows:
 Technical benefits
@@ -68,6 +70,7 @@ Faster delivery of features
 Stable operating environments
 Improved communication and collaboration between the teams
 Also Read: How to Become a DevOps Engineer?
+
 6. How will you approach a project that needs to implement DevOps?
 The following standard approaches can be used to implement DevOps in a specific project:
 Stage 1
@@ -77,6 +80,7 @@ Create a proof of concept (PoC). Once it is accepted and approved, the team can 
 Stage 3
 The project is now ready for implementing DevOps by using version control/integration/testing/deployment/delivery and monitoring followed step by step.
 By following the proper steps for version control, integration, testing, deployment, delivery, and monitoring, the project is now ready for DevOps implementation. 
+
 7. What is the difference between continuous delivery and continuous deployment?
 
 
@@ -84,12 +88,13 @@ By following the proper steps for version control, integration, testing, deploy
 Enables management of and changes to multiple systems.
 Standardizes resource configurations, which in turn, manage IT infrastructure.
 It helps with the administration and management of multiple servers and maintains the integrity of the entire infrastructure.
-9. How does continuous monitoring help you maintain the entire architecture of the system?
 
+9. How does continuous monitoring help you maintain the entire architecture of the system?
 Continuous monitoring in DevOps is a process of detecting, identifying, and reporting any faults or threats in the entire infrastructure of the system.
 Ensures that all services, applications, and resources are running on the servers properly.
 Monitors the status of servers and determines if applications are working correctly or not.
 Enables continuous audit, transaction inspection, and controlled monitoring.
+
 10. What is the role of AWS in DevOps?
 AWS has the following role in DevOps:
 Flexible services: Provides ready-to-use, flexible services without the need to install or set up the software.
@@ -97,23 +102,28 @@ Built for scale: You can manage a single instance or scale to thousands using AW
 Automation: AWS lets you automate tasks and processes, giving you more time to innovate
 Secure: Using AWS Identity and Access Management (IAM), you can set user permissions and policies.
 Large partner ecosystem: AWS supports a large ecosystem of partners that integrate with and extend AWS services.
+
 11. Name three important DevOps KPIs.
 The three important KPIs are as follows:
 Meantime to failure recovery: This is the average time taken to recover from a failure.
 Deployment frequency: The frequency in which the deployment occurs. 
 Percentage of failed deployments: The number of times the deployment fails.
+
 12. Explain the term "Infrastructure as Code" (IaC) as it relates to configuration management.
 Writing code to manage configuration, deployment, and automatic provisioning.
 Managing data centers with machine-readable definition files, rather than physical hardware configuration.
 Ensuring all your servers and other infrastructure components are provisioned consistently and effortlessly. 
 Administering cloud computing environments, also known as infrastructure as a service (IaaS).
+
 13. How is IaC implemented using AWS?
 Start by talking about the age-old mechanisms of writing commands onto script files and testing them in a separate environment before deployment and how this approach is being replaced by IaC. Similar to the codes written for other services, with the help of AWS, IaC allows developers to write, test, and maintain infrastructure entities in a descriptive manner, using formats such as JSON or YAML. This enables easier development and faster deployment of infrastructure changes.
+
 14. Why Has DevOps Gained Prominence over the Last Few Years?
 Before talking about the growing popularity of DevOps, discuss the current industry scenario. Begin with some examples of how big players such as Netflix and Facebook are investing in DevOps to automate and accelerate application deployment and how this has helped them grow their business. Using Facebook as an example, you would point to Facebook’s continuous deployment and code ownership models and how these have helped it scale up but ensure the quality of experience at the same time. Hundreds of lines of code are implemented without affecting quality, stability, and security.
 Your next use case should be Netflix. This streaming and on-demand video company follow similar practices with fully automated processes and systems. Mention the user base of these two organizations: Facebook has 2 billion users while Netflix streams online content to more than 100 million users worldwide.
 These are great examples of how DevOps can help organizations to ensure higher success rates for releases, reduce the lead time between bug fixes, streamline and continuous delivery through automation, and an overall reduction in manpower costs.
 We will now look into the next set of DevOps Interview Questions that includes - Git, Selenium, Jenkins.
+
 15. What are the fundamental differences between DevOps & Agile?
 The main differences between Agile and DevOps are summarized below:
 
@@ -126,28 +136,34 @@ DevOps == Process 
 DevOps == Agile
 Cannot perform DevOps → Organization is unique
 A separate group needs to be made for DevOps
+
 17. What are the benefits of using version control?
 Here are the benefits of using Version Control:
 All team members are free to work on any file at any time with the Version Control System (VCS). Later on, VCS will allow the team to integrate all of the modifications into a single version.
 The VCS asks to provide a brief summary of what was changed every time we save a new version of the project. We also get to examine exactly what was modified in the content of the file. As a result, we will be able to see who made what changes to the project.
 Inside the VCS, all the previous variants and versions are properly stored. We will be able to request any version at any moment, and we will be able to retrieve a snapshot of the entire project at our fingertips.
 A VCS that is distributed, such as Git, lets all the team members retrieve a complete history of the project. This allows developers or other stakeholders to use the local Git repositories of any of the teammates even if the main server goes down at any point in time.
+
 18. Describe the branching strategies you have used.
 To test our knowledge of the purpose of branching and our experience of branching at a past job, this question is usually asked. 
 Below topics can help in answering this DevOps interview question -
 Release branching - We can clone the develop branch to create a Release branch once it has enough functionality for a release. This branch kicks off the next release cycle, thus no new features can be contributed beyond this point. The things that can be contributed are documentation generation, bug fixing, and other release-related tasks. The release is merged into master and given a version number once it is ready to ship. It should also be merged back into the development branch, which may have evolved since the initial release.
 Feature branching - This branching model maintains all modifications for a specific feature contained within a branch. The branch gets merged into master once the feature has been completely tested and approved by using tests that are automated.
 Task branching - In this branching model, every task is implemented in its respective branch. The task key is mentioned in the branch name. We need to simply look at the task key in the branch name to discover which code implements which task.
+
 19. Can you explain the “Shift left to reduce failure” concept in DevOps?
 Shift left is a DevOps idea for improving security, performance, and other factors. Let us take an example: if we look at all of the processes in DevOps, we can state that security is tested prior to the deployment step. We can add security in the development phase, which is on the left, by employing the left shift method. [will be depicted in a diagram] We can integrate with all phases, including before development and during testing, not just development. This most likely raises the security level by detecting faults at an early stage.
 
 20. What is the Blue/Green Deployment Pattern?
 This is a method of continuous deployment that is commonly used to reduce downtime. This is where traffic is transferred from one instance to another. In order to include a fresh version of the code, we must replace the old code with a new code version. 
 The new version exists in a green environment and the old version exists in a blue environment. After making changes to the previous version, we need a new instance from the old one to execute a newer version of the instance.
+
 21. What is Continuous Testing?
 Continuous Testing constitutes the running of automated tests as part of the software delivery pipeline to provide instant feedback on the business risks present in the most recent release. In order to prevent problems in step-switching in the Software delivery life-cycle and to allow Development teams to receive immediate feedback, every build is continually tested in this manner. This results in a significant increase in speed in a developer's productivity as it eliminates the requirement for re-running all the tests after each update and project re-building.
+
 22. What is Automation Testing?
 Test automation or manual testing Automation is the process of automating a manual procedure in order to test an application or system. Automation testing entails the use of independent testing tools that allow you to develop test scripts that can be run repeatedly without the need for human interaction.
+
 23. What are the benefits of Automation Testing?
 Some of the advantages of Automation Testing are -
 Helps to save money and time.
@@ -156,11 +172,14 @@ Huge test matrices can be easily tested.
 Parallel execution is enabled.
 Reduced human-generated errors, which results in improved accuracy.
 Repeated test tasks execution is supported.
+
 24. How to automate Testing in the DevOps lifecycle?
 Developers are obliged to commit all source code changes to a shared DevOps repository.
 Every time a change is made in the code, Jenkins-like Continuous Integration tools will grab it from this common repository and deploy it for Continuous Testing, which is done by tools like Selenium.
+
 25. Why is Continuous Testing important for DevOps?
 Any modification to the code may be tested immediately with Continuous Testing. This prevents concerns like quality issues and releases delays that might occur whenever big-bang testing is delayed until the end of the cycle. In this way, Continuous Testing allows for high-quality and more frequent releases.
+
 26. What are the key elements of Continuous Testing tools?
 Continuous Testing key elements are:
 Test Optimization: It guarantees that tests produce reliable results and actionable information. Test Data Management, Test Optimization Management, and Test Maintenance are examples of aspects.
@@ -169,7 +188,9 @@ Policy Analysis: It guarantees that all processes are in line with the organizat
 Risk Assessment: Test coverage optimization, technical debt, risk mitigation duties, and quality evaluation are all covered to guarantee the build is ready to move on to the next stage.
 Service Virtualization: Ensures that real-world testing scenarios are available. Service visualisation provides access to a virtual representation of the needed testing phases, ensuring its availability and reducing the time spent setting up the test environment.
 Requirements Traceability: It guarantees that no rework is necessary and real criteria are met. To determine which needs require additional validation, are in jeopardy and performing as expected, an object evaluation is used.
+
 DevOps Interview Questions for Source Code Management: Git
+=============================================================
 27. Explain the difference between a centralized and distributed version control system (VCS).
 Centralized Version Control System
 All file versions are stored on a central server
@@ -180,15 +201,17 @@ Distributed Control System
 Every developer has a copy of all versions of the code on their systems
 Enables team members to work offline and does not rely on a single location for backups
 There is no threat, even if the server crashes
-28. What is the git command that downloads any repository from GitHub to your computer?
 
+28. What is the git command that downloads any repository from GitHub to your computer?
 The git command that downloads any repository from GitHub to your computer is git clone.
+
 29. How do you push a file from your local system to the GitHub repository using Git?
 First, connect the local repository to your remote repository:
 git remote add origin [copied web address]      
 // Ex: git remote add origin https://github.com/Simplilearn-github/test.git
 Second, push your file to the remote repository:
 git push origin master
+
 30. How is a bare repository different from the standard way of initializing a Git repository?
 Using the standard method:
 git init
@@ -198,17 +221,20 @@ Using the bare way
 git init --bare
 It does not contain any working or checked out a copy of source files
 Bare repositories store git revision history in the root folder of your repository, instead of the .git subfolder
+
 31. Which of the following CLI commands can be used to rename files?
 git rm
 git mv
 git rm -r
 None of the above
 The correct answer is B) git mv
+
 32. What is the process for reverting a commit that has already been pushed and made public?
 There are two ways that you can revert a commit: 
 Remove or fix the bad file in a new commit and push it to the remote repository. Then commit it to the remote repository using:  git commit –m "commit message" 
 Create a new commit that undoes all the changes that were made in the bad commit. Use the following command:  git revert <commit id>
 Example: git revert 56de0938f
+
 33. Explain the difference between git fetch and git pull.
 
 34. What is Git stash?
@@ -226,7 +252,6 @@ Git Merge
 To incorporate the new commits into your feature branch, use Git merge.
 Creates an extra merge commit every time you need to incorporate changes
 But, it pollutes your feature branch history
-
 Git Rebase
 As an alternative to merging, you can rebase the feature branch on to master.
 Incorporates all the new commits in the master branch
@@ -238,6 +263,7 @@ git diff-tree –r {commit hash}
 Example: git diff-tree –r 87e673f21b
 -r flag instructs the command to list individual files
 commit hash will list all the files that were changed or added in that commit
+
 38. What is a merge conflict in Git, and how can it be resolved?
 A Git merge conflict happens when you have merge branches with competing for commits, and Git needs your help to decide which changes to incorporate in the final merge.
 
@@ -276,10 +302,9 @@ Delete the conflict markers "<<<<<<<", "=======", ">>>>>>>" and make the changes
         In this example, both the changes are incorporated into the final merge:
 
 Add or stage your changes. 
-
 Commit your changes with a comment.
-
 Now you can merge the branches on the command line, or push your changes to your remote repository on GitHub and merge your changes in a pull request.
+
 39. What is Git bisect? How can you use it to determine the source of a (regression) bug?
 Git bisect is a tool that uses binary search to locate the commit that triggered a bug.
 Git bisect command -
@@ -292,33 +317,38 @@ Some of the Basic Git Commands are summarized in the below table -
 
 
 DevOps Interview Questions for Continuous Integration: Jenkins
+===============================================================
 41. Explain the master-slave architecture of Jenkins.
-
 Jenkins master pulls the code from the remote GitHub repository every time there is a code commit.
 It distributes the workload to all the Jenkins slaves.
 On request from the Jenkins master, the slaves carry out, builds, test, and produce test reports.
+
 42. What is Jenkinsfile?
 Jenkinsfile contains the definition of a Jenkins pipeline and is checked into the source control repository. It is a text file.
 It allows code review and iteration on the pipeline.
 It permits an audit trail for the pipeline.
 There is a single source of truth for the pipeline, which can be viewed and edited.
+
 43. Which of the following commands runs Jenkins from the command line?
 java –jar Jenkins.war
 java –war Jenkins.jar
 java –jar Jenkins.jar
 java –war Jenkins.war
 The correct answer is A) java –jar Jenkins.war
+
 44. What concepts are key aspects of the Jenkins pipeline?
 Pipeline: User-defined model of a CD pipeline. The pipeline's code defines the entire build process, which includes building, testing, and delivering an application
 Node: A machine that is part of the Jenkins environment and capable of executing a pipeline
 Step: A single task that tells Jenkins what to do at a particular point in time
 Stage: Defines a conceptually distinct subset of tasks performed through the entire pipeline (build, test, deploy stages)
+
 45. Which file is used to define dependency in Maven?
 build.xml
 pom.xml
 dependency.xml
 Version.xml
 The correct answer is B) pom.xml
+
 46. Explain the two types of pipelines in Jenkins, along with their syntax.
 Jenkins provides two ways of developing a pipeline code: Scripted and Declarative.
  Scripted Pipeline: It is based on Groovy script as their Domain Specific Language. One or more node blocks do the core work throughout the entire pipeline.
@@ -343,36 +373,40 @@ Performs steps related to the deploy stage
 
 47. How do you create a backup and copy files in Jenkins?
 In order to create a backup file, periodically back up your JENKINS_HOME directory.
-
 In order to create a backup of Jenkins setup, copy the JENKINS_HOME directory. You can also copy a job directory to clone or replicate a job or rename the directory.
-48. How can you copy Jenkins from one server to another?
 
+48. How can you copy Jenkins from one server to another?
 Move the job from one Jenkins installation to another by copying the corresponding job directory.
 Create a copy of an existing job by making a clone of a job directory with a different name.
 Rename an existing job by renaming a directory.
+
 49. Name three security mechanisms Jenkins uses to authenticate users.
 Jenkins uses an internal database to store user data and credentials.
 Jenkins can use the Lightweight Directory Access Protocol (LDAP) server to authenticate users. 
 Jenkins can be configured to employ the authentication mechanism that the deployed application server uses. 
+
 50. How is a custom build of a core plugin deployed?
 Steps to deploy a custom build of a core plugin:
 Copy the .hpi file to $JENKINS_HOME/plugins
 Remove the plugin's development directory
 Create an empty file called <plugin>.hpi.pinned
 Restart Jenkins and use your custom build of a core plugin
-51. How can you temporarily turn off Jenkins security if the administrative users have locked themselves out of the admin console?
 
+51. How can you temporarily turn off Jenkins security if the administrative users have locked themselves out of the admin console?
 When security is enabled, the Config file contains an XML element named useSecurity that will be set to true.
 By changing this setting to false, security will be disabled the next time Jenkins is restarted.
+
 52. What are the ways in which a build can be scheduled/run in Jenkins?
 By source code management commits.
 After the completion of other builds.
 Scheduled to run at a specified time.
 Manual build requests.
+
 53. What are the commands that you can use to restart Jenkins manually?
 Two ways to manually restart Jenkins: 
 (Jenkins_url)/restart            // Forces a restart without waiting for builds to complete                                
 (Jenkins_url)/safeRestart    // Allows all running builds to complete before it restarts   
+
 54. Explain how you can set up a Jenkins job?
 To create a Jenkins Job, we go to the top page of Jenkins, choose the New Job option and then select Build a free-style software project.
 The elements of this freestyle job are:
@@ -382,6 +416,7 @@ A build script (ant, maven, shell script, batch file, etc.) that actually does t
 Optional source code management system (SCM), like Subversion or CVS.
 
 DevOps Interview Questions for Continuous Testing: Selenium
+============================================================
 55. What are the different Selenium components?
 Selenium has the following components:
 Selenium Integrated Development Environment (IDE) 
@@ -394,12 +429,14 @@ Applies a better approach to automate browser activities.
 It does not rely on JavaScript.
 Selenium Grid
 Works with Selenium RC and runs tests on different nodes using browsers.
+
 56. What are the different exceptions in Selenium WebDriver?
 Exceptions are events that occur during the execution of a program and disrupt the normal flow of a program's instructions. Selenium has the following exceptions:
 TimeoutException: It is thrown when a command performing an operation does not complete in the stipulated time.
 NoSuchElementException: It is thrown when an element with specific attributes is not found on the web page.
 ElementNotVisibleException: It is thrown when an element is present in Document Object Model (DOM) but is not visible. Ex: Hidden Elements defined in HTML using type=“hidden”.
 SessionNotFoundException: The WebDriver is performing the action immediately after quitting the browser.
+
 57. Can Selenium test an application on an Android browser?
 Selenium is capable of testing an application on an Android browser using an Android driver. You can use the Selendroid or Appium framework to test native apps or web apps in the Android browser. The following is a sample code:
 
@@ -407,6 +444,7 @@ Selenium is capable of testing an application on an Android browser using an And
 Functional: This is a type of black-box testing in which the test cases are based on the software specification.
 Regression: This testing helps to find new errors, regressions, etc. in different functional and non-functional areas of code after the alteration. 
 Load Testing: This testing seeks to monitor the response of a device after putting a load on it. It is carried out to study the behavior of the system under certain conditions.
+
 59. How can you access the text of a web element?
 Get command is used to retrieve the text of a specified web element. The command does not return any parameter but returns a string value.
 Used for:
@@ -415,6 +453,7 @@ Labels
 Errors displayed on the web page
 Syntax: 
 String Text=driver.findElement(By.id(“text”)).getText();
+
 60. How can you handle keyboard and mouse actions using Selenium?
 You can handle keyboard and mouse events with the advanced user interaction API. The advanced user interactions API contains actions and action classes.
 
@@ -434,25 +473,31 @@ WebElement element=driver.findElements(By.xpath(“//div[@id=‘example’]//ul/
 It finds all the elements in the current web page that matches the specified locator value.
 Syntax:
 List elementList=driver.findElements(By.xpath(“//div[@id=‘example’]//ul//li”));
+
 62. What are driver.close() and driver.quit() in WebDriver?
 These are two different methods used to close the browser session in Selenium WebDriver:
 driver.close(): This is used to close the current browser window on which the focus is set. In this case, there is only one browser open.
 driver.quit(): It closes all the browser windows and ends the WebDriver session using the driver.dispose method.
+
 63. How can you submit a form using Selenium?
 The following lines of code will let you submit a form using Selenium:
 WebElement el = driver.findElement(By.id(“ElementID”));
 el.submit();
+
 64. What are the Testing types supported by Selenium?
 There are two types of testing that are primarily supported by Selenium:
 Functional Testing: Individual testing of software functional points or features.
 Regression Testing: Wherever a bug is fixed, a product is retested and this is called Regression Testing.
+
 65. What is Selenium IDE?
 Selenium integrated development environment (IDE)  is an all-in-one Selenium script development environment. It may be used to debug tests, alter and record and is also available as a Firefox extension. Selenium IDE comes with the whole Selenium Core that  allows us to rapidly and easily replay and record  tests in the exact environment where they will be conducted.
 Selenium IDE is the best environment for building Selenium tests, regardless of the style of testing we prefer, thanks to the ability to move instructions around rapidly and the autocomplete support.
+
 66. What is the difference between Assert and Verify commands in Selenium?
 The difference between Verify and Assert commands in Selenium are:
 The verify commands determine whether or not the provided condition is true. The program execution does not halt regardless of whether the condition is true or not, i.e., all test steps will be completed, and verification failure will not stop the execution.
 The assert command determines whether a condition is false or true. To know whether the supplied element is on the page or not, we do the following. The next test step will be performed by the program control, if the condition is true. However, no further tests will be run, and the execution will halt, if the condition is false.
+
 67. How to launch Browser using WebDriver?
 To launch Browser using WebDriver, following syntax is followed -
 WebDriver driver = new InternetExplorerDriver();
@@ -463,6 +508,7 @@ Differences between Configuration Management and Asset Management are:
 
 
 DevOps Interview Questions for Configuration Management: Chef, Puppet, Ansible
+================================================================================
 69. Why are SSL certificates used in Chef?
 SSL certificates are used between the Chef server and the client to ensure that each node has access to the right data.
 Every node has a private and public key pair. The public key is stored at the Chef server.
@@ -475,6 +521,7 @@ The server compares this against the public key in order to identify the node an
 # system disable httpd
 # systemctl disable httpd.service
 The correct answer is A) # systemctl disable httpd.service
+
 71. What is Test Kitchen in Chef?
 Test Kitchen is a command-line tool in Chef that spins up an instance and tests the cookbook on it before deploying it on the actual nodes.
 Here are the most commonly used kitchen commands:
@@ -482,18 +529,22 @@ Here are the most commonly used kitchen commands:
 72. How does chef-apply differ from chef-client?
 chef-apply is run on the client system.  chef-apply applies the recipe mentioned in the command on the client system.  $ chef-apply recipe_name.rb 
 chef-client is also run on the client system.  chef-client applies all the cookbooks in your server's run list to the client system.  $ knife chef-client
+
 73. What is the command to sign the requested certificates?
 For Puppet version 2.7:  # puppetca –sign hostname-of-agent  Example:  # puppetca –sign ChefAgent  # puppetca sign hostname-of-agent  Example:  # puppetca sign ChefAgent 
 For Puppet version 2.7:  # puppetca –sign hostname-of-agent  Example:  # puppetca –sign ChefAgent  # puppetca sign hostname-of-agent  Example:  # puppetca sign ChefAgent
+
 74. Which open-source or community tools do you use to make Puppet more powerful?
 Changes in the configuration are tracked using Jira, and further maintenance is done through internal procedures. 
 Version control takes the support of Git and Puppet's code manager app.
 The changes are also passed through Jenkin's continuous integration pipeline.
+
 75. What are the resources in Puppet?
 Resources are the basic units of any configuration management tool.
 These are the features of a node, like its software packages or services.
 A resource declaration, written in a catalog, describes the action to be performed on or with the resource.
 When the catalog is executed, it sets the node to the desired state.
+
 76. What is a class in Puppet?
 Classes are named blocks in your manifest that configure various functionalities of the node, such as services, files, and packages.
 The classes are added to a node's catalog and are executed only when explicitly invoked.
@@ -501,10 +552,12 @@ Class apache (String $version = ‘latest’) {
 package{
 ‘httpd’: ensure => $version,
 before => File[‘/etc/httpd.conf’],}
+
 77. What is an Ansible role?
 An Ansible role is an independent block of tasks, variables, files, and templates embedded inside a playbook.
 
 This playbook installs tomcat on node1.
+
 78. When should I use '{{ }}'?
 Always use {{}} for variables, unless you have a conditional statement, such as "when: …". This is because conditional statements are run through Jinja, which resolves the expressions.
  For example:
@@ -513,16 +566,20 @@ Always use {{}} for variables, unless you have a conditional statement, such as 
 Using brackets makes it simpler to distinguish between strings and undefined variables.
 
 This also ensures that Ansible doesn't recognize the line as a dictionary declaration.
+
 79. What is the best way to make content reusable/redistributable?
 There are three ways to make content reusable or redistributable in Ansible:
 Roles are used to managing tasks in a playbook. They can be easily shared via Ansible Galaxy.
 "include" is used to add a submodule or another file to a playbook. This means a code written once can be added to multiple playbooks.
 "import" is an improvement of "include," which ensures that a file is added only once. This is helpful when a line is run recursively.
+
 80. How is Ansible different from Puppet?
 
-We will now look at some DevOps interview questions on contanerization.
 
+We will now look at some DevOps interview questions on contanerization.
+------- ------- -------- ---------- ---------- ------------------------
 DevOps Interview Questions on Containerization
+=================================================
 81. Explain the architecture of Docker.
 Docker uses a client-server architecture.
 Docker Client is a service that runs a command. The command is translated using the REST API and is sent to the Docker Daemon (server). 
@@ -534,14 +591,15 @@ Docker registry is a service to host and distribute Docker images among users.
 82. What are the advantages of Docker over virtual machines?
 
 83. How do we share Docker containers with different nodes?
-
 It is possible to share Docker containers on different nodes with Docker Swarm.
 Docker Swarm is a tool that allows IT administrators and developers to create and manage a cluster of swarm nodes within the Docker platform.
 A swarm consists of two types of nodes: a manager node and a worker node.
+
 84. What are the commands used to create a Docker swarm?
 Create a swarm where you want to run your manager node.  Docker swarm init --advertise-addr <MANAGER-IP> 
 Once you've created a swarm on your manager node, you can add worker nodes to your swarm.
 When a node is initialized as a manager, it immediately creates a token. In order to create a worker node, the following command (token) should be executed on the host machine of a worker node.  docker swarm join \ --token SWMTKN-1-49nj1cmql0jkz5s954yi3oex3nedyz0fb0xx14ie39trti4wxv-8vxv8rssmk743ojnwacrr2e7c \ 192.168.99.100:2377
+
 85. How do you run multiple containers using a single service?
 It is possible to run multiple containers as a single service with Docker Compose.
 Here, each container runs in isolation but can interact with each other.
@@ -558,6 +616,7 @@ From the Docker registry, users can get the Docker image and build new container
 88. Instead of YAML, what can you use as an alternate file for building Docker compose?
 To build a Docker compose, a user can use a JSON file instead of YAML. In case a user wants to use a JSON file, he/she should specify the filename as given:
 Docker-compose -f Docker-compose.json up
+
 89. How do you create a Docker container?
 Task: Create a MySQL Docker container 
 A user can either build a Docker image or pull an existing Docker image (like MySQL) from Docker Hub.
@@ -592,11 +651,13 @@ It is used to map a host port to a running container port.
 Example: docker run –d –p 0.0.0.80:80
 Now, let's have a look at the DevOps interview questions for continuous monitoring.
 DevOps Interview Questions for Continuous Monitoring
+
 93. How does Nagios help in the continuous monitoring of systems, applications, and services?
 Nagios enables server monitoring and the ability to check if they are sufficiently utilized or if any task failures need to be addressed. 
 Verifies the status of the servers and services
 Inspects the health of your infrastructure
 Checks if applications are working correctly and web servers are reachable
+
 94. How does Nagios help in the continuous monitoring of systems, applications, and services?
 
 95. What do you mean by Nagios Remote Plugin Executor (NPRE) of Nagios?
@@ -614,13 +675,13 @@ Active checks are regularly scheduled
 Passively
 Passive checks are initiated and performed through external applications/processes
 Passive checks results are submitted to Nagios for processing
+
 98. What are active and passive checks in Nagios?
 Active Checks:
 The check logic in the Nagios daemon initiates active checks.
 Nagios will execute a plugin and pass the information on what needs to be checked.
 The plugin will then check the operational state of the host or service, and report results back to the Nagios daemon.
 It will process the results of the host or service check and send notifications.
-
 Passive Checks:
 In passive checks, an external application checks the status of a host or service.
 It writes the results of the check to the external command file.
@@ -631,6 +692,7 @@ Nagios may send out notifications, log alerts, etc. depending on the check resul
 The main configuration file consists of several directives that affect how Nagios operates. The Nagios process and the CGIs read the config file.
 A sample main configuration file will be placed into your settings directory:
 /usr/local/Nagios/etc/resource.cfg
+
 100. What is the Nagios Network Analyzer?
 It provides an in-depth look at all network traffic sources and security threats.
 It provides a central view of your network traffic and bandwidth data.
@@ -646,6 +708,7 @@ SSL Certificate Monitoring
 Increased website availability.
 Frequent application availability.
 It provides increased security.
+
 102. Explain virtualization with Nagios.
 
 Nagios can run on different virtualization platforms, like VMware, Microsoft Visual PC, Xen, Amazon EC2, etc.
@@ -657,6 +720,7 @@ Memory
 Networking
 VM status
 Reduced administrative overhead
+
 103. Name the three variables that affect recursion and inheritance in Nagios.
 Name: Template name that can be referenced in other object definitions so it can inherit the object's properties/variables.
 Use: Here, you specify the name of the template object that you
@@ -669,14 +733,15 @@ define someobjecttype{
               use name_of_template
               register [0/1]
               }
-104. Why is Nagios said to be object-oriented?
 
+104. Why is Nagios said to be object-oriented?
 Using the object configuration format, you can create object definitions that inherit properties from other object definitions. Hence, Nagios is known as object-oriented.
 Types of Objects:
 Services
 Hosts
 Commands
 Time Periods
+
 105. Explain what state stalking is in Nagios.
 State stalking is used for logging purposes in Nagios.
 When stalking is enabled for a particular host or service, Nagios will watch that host or service very carefully.
@@ -684,8 +749,10 @@ It will log any changes it sees in the output of check results.
 This helps in the analysis of log files.
 Version Control System Interview Questions
 Here are some common interview questions and answers related to version control systems:
+
 106. What is a version control system (VCS)?
 A VCS is a software tool that allows developers to manage changes to the source code of a software project. It enables developers to track and manage different versions of code files, collaborate with others, and revert to earlier versions if necessary.
+
 107. What are the benefits of using a VCS?
 There are several benefits to using a VCS, including:
 The ability to track changes to code over time
@@ -694,10 +761,12 @@ The ability to revert to earlier versions of code if necessary
 The ability to branch code and work on different features or fixes simultaneously
 The ability to merge changes from other branches or contributors
 Increased confidence and control over code changes and deployments
+
 108. What are the types of VCS?
 There are two main types of VCS: centralized and distributed.
 Centralized VCS: A centralized VCS has a single central repository that stores all versions of the code files. Developers check out files from the central repository, make changes, and then commit the changes back to the warehouse.
 Distributed VCS: A distributed VCS allows developers to create their local repositories of code changes. Developers can work on code changes locally, commit changes to their local storage, and then push changes to a central repository or pull changes from other contributors.
+
 109. What is the difference between Git and SVN?
 Git and SVN are both popular VCS tools, but they have some key differences:
 Git is a distributed VCS, while SVN is a centralized VCS.
@@ -705,8 +774,10 @@ Git is more flexible and allows easier branching and merging of code changes.
 SVN has better support for handling binary files.
 Git is generally considered faster than SVN.
 Virtualization Interview Questions
+
 110. What is virtualization?
 Virtualization is a technology that allows multiple operating systems or applications to run on a single physical server or computer. It creates virtual instances of hardware resources such as CPU, memory, and storage, which can be allocated to different virtual machines.
+
 111. What are the benefits of virtualization?
 There are several benefits of virtualization, including:
 Reduced hardware costs
@@ -714,25 +785,46 @@ Increased efficiency and utilization of resources
 Improved scalability and flexibility
 Increased reliability and availability of applications
 Simplified management and administration of IT infrastructure
+
 112. What are the different types of virtualization?
 There are several types of virtualization, including:
 Server virtualization: Running multiple operating systems on a single physical server.
 Network virtualization: Creating virtual networks that operate independently of physical network infrastructure.
 Storage virtualization: Combining physical storage resources into a single virtual storage pool.
 Desktop virtualization: Running multiple desktop environments on a single physical machine.
+
 113. What is a hypervisor?
 A hypervisor is a layer of software that enables virtualization by allowing multiple virtual machines to share a single physical server or computer. It manages the allocation of hardware resources to each virtual machine and isolates each virtual machine from the others.
 
 114. What is virtualization, and how does it connect to DevOps?
 Virtualization is creating a virtual version of something, such as a server, storage device, or network. In DevOps, virtualization allows teams to create and manage virtual environments that can be used for development, testing, and deployment. This can help improve efficiency, reduce costs, and enable greater flexibility and scalability.
+
 115. What are the benefits of using virtualization in DevOps?
 Virtualization offers several benefits in a DevOps environment, including:
 Improved efficiency: Virtualization allows for faster creation, deployment, and management of development and testing environments.
 Greater scalability: Virtualization enables teams to quickly scale up or down their infrastructure as needed without requiring additional physical hardware.
 Increased flexibility: Virtualization allows the creation of custom environments that can be easily modified and adapted to meet changing requirements.
 Reduced costs: Virtualization can help reduce hardware costs and increase resource utilization, leading to lower overall infrastructure costs.
+
 116. What are some standard virtualization technologies used in DevOps?
 Several virtualization technologies are commonly used in DevOps, including:
 Virtual machines (VMs): VMs are created using virtualization software such as VMware or VirtualBox and enable the creation of multiple virtual instances of an operating system on a single physical machine.
 Containers: Containers are lightweight, portable virtual environments created using containerization software such as Docker or Kubernetes. Containers enable the creation of custom application environments that can be easily shared and deployed across different systems.
 Cloud computing: Cloud computing providers such as Amazon Web Services (AWS), Microsoft Azure, and the Google Cloud Platform (GCP) offer virtualized infrastructure and services that can be easily managed and scaled using DevOps tools and practices.
+
+
+=========================================================================================================================================
+
+General Qts.: 
+
+117. What are the steps to be followed when a file/software/package is downloaded from internet?
+When a software is installed using wget/curl command from internet 2 things must be done on mandatory basis:
+ a) That installed file must be moved to usr/local/bin/installed-file (reason for it is all the user commands are performed in this folder)
+ b) executable permissions must be changed inorder to use that software/package effectively. (chmod 777 file-name)
+
+118. What are the differences between update and upgrade command? 
+  - apt update refreshes the package metadata, while apt upgrade installs the package upgrades.
+  - apt update does not change any installed packages, it just updates the list of available packages and versions. apt upgrade will install the newer package versions.
+  - apt update should always be run before apt upgrade to ensure you have the latest information about available package updates.
+  - apt upgrade can also upgrade the Linux kernel package, while apt-get upgrade cannot - for that you need to use apt-get dist-upgrade.
+  So in short, apt update prepares your system for upgrades, while apt upgrade actually performs the package upgrades based on the updated metadata.
